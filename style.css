@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 50px 100px;
+    /* background-color: rgb(218, 207, 194); */
+    background-image: url(bg-image.jpg);
+    background-size: cover ;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(2, 5, 90);
+    padding: 80px;
+}
+
+#container{
+    text-align: center;
+    background: rgba(118, 121, 122, 0.5);
+ padding: 100px;
+
+}
+
+.input-div{
+    display: inline-block;
+}
+
+.inp{
+    padding: 10px 50px;
+     margin: 10px;
+     font-size: 40px;
+     text-align: center;
+
+}
+
+label{
+    font-size: 50px;
+    font-weight: bold;
+    color: white
+}
+
+input[type="number"]
+{
+    background: rgb(211, 205, 205);
+border-radius: 15px;
+}
